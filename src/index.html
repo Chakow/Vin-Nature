@@ -7,32 +7,65 @@
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="stylesheet" href="https://use.typekit.net/hql4zun.css" />
   </head>
-  <body>
-    <div class="nav-provisoire">
-      <a href="index.html">accueil</a>
-      <a href="détail-gewürztraminer.html">blanc</a>
-      <a href="détail-pinot.html">rouge</a>
-      <script src="js/main.js" type="module"></script>
-    </div>
+  <extends src="menu-layout"></extends>
+
+    <extends src="nav-provisoire.html"></extends>
     <div class="Accueil-part">
       <div class="container">
         <div class="row">
-          <div class="col-2">compte</div>
+          <div class="col-2 compte">
+            <div class="langue">
+              <div class="de">DE</div>
+              <div class="fr">FR</div>
+              <div class="en">EN</div>
+            </div>
+            <div class="shopping">
+              <img src="img/user.svg" alt="user" class="user" />
+              <img src="img/bag-shopping.svg" alt="user" class="bag-shopping" />
+            </div>
+          </div>
         </div>
 
         <div class="row">
-          <div class="col-7">Slogan</div>
+          <div class="col-7 slogan">
+            <strong>Rossignol</strong><br />La nature en bouteille,<br />Le
+            respect au coeur du terroir.
+            <div class="button">Nos vins</div>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
-        <div class="col-10">Avant-vue-titre</div>
+        <div class="col-10 Avant-vue-titre">
+          Découvrez l'Essence Unique<br />de Rossignol !
+        </div>
       </div>
 
-      <div class="row">
-        <div class="col-5">Avant-vue-gewurtztraminer</div>
-        <div class="col-5">Avant-vue-Pinot</div>
+      <div class="row avant-vue">
+        <div class="col-5 élément">
+          <img src="img/pinot-preview.png" alt="pinot noir" />
+          <div class="présentation-vin-rouge">
+            <h3>Pinot Noir, Gamay</h3>
+            <p>
+              Un vin délicat et naturel, aux arômes de fruits rouges et
+              d'épices. Une pure expression du terroir valaisan, sans artifices.
+            </p>
+            <div class="button-white">Voir le produit</div>
+          </div>
+        </div>
+        <div class="col-5 élément">
+          <img src="img/blanc-preview.png" alt="vin blanc" />
+          <div class="présentation-vin-blanc">
+            <h3>Vin blanc, Gewürztraminer</h3>
+            <p>
+              Frais et vibrant, ce vin blanc naturel révèle des notes fruitées
+              et florales. Une authenticité pure, issue du terroir valaisan.
+            </p>
+            <div class="button-white">Voir le produit</div>
+          </div>
+        </div>
       </div>
 
       <div class="row">
