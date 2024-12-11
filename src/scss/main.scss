@@ -568,6 +568,25 @@ footer {
     font-weight: 900;
   }
 }
+.bannière-blanc {
+  background: url("../img/header-detail-blanc.png") 50% / cover no-repeat;
+  height: 300px;
+  top: 0;
+  display: flex;
+  height: 300px;
+  padding: 20px 352px;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: stretch;
+  h1 {
+    text-align: right;
+    font-family: "Joly Headline";
+    font-size: 64px;
+    font-weight: 900;
+    width: 100%;
+  }
+}
 .navigation {
   display: flex;
   justify-content: flex-start;

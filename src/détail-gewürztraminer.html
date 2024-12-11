@@ -11,47 +11,121 @@
     <extends src="menu-layout"></extends>
     <div class="container">
       <div class="row">
-        <div class="col-2">compte</div>
-      </div>
-
-      <div class="row">
-        <div class="col-8 offset-2">Titre</div>
-      </div>
-
-      <div class="row">
-        <div class="col-6">Navigation</div>
-      </div>
-
-      <div class="row">
-        <div class="col-3">Avant-vue-titre</div>
-        <div class="col-6">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-              <div class="col-12">18</div>
-            </div>
+        <div class="col-2 compte">
+          <div class="langue">
+            <div class="de">DE</div>
+            <div class="fr">FR</div>
+            <div class="en">EN</div>
+          </div>
+          <div class="shopping">
+            <img src="img/user.svg" alt="user" class="user" />
+            <img src="img/bag-shopping.svg" alt="user" class="bag-shopping" />
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="bannière-blanc">
+      <h1>Vin blanc, Gewürztraminer</h1>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-5">proposition texte</div>
-        <div class="col-5">proposition image</div>
+        <div class="col-6 navigation">
+          <h3>Accueil</h3>
+          <img src="img/chevron-right.svg" alt="flèche droite" />
+          <h3>Nos vins</h3>
+          <img src="img/chevron-right.svg" alt="flèche droite" />
+          <h3>Vin Blanc</h3>
+          <img src="img/chevron-right.svg" alt="flèche droite" />
+          <h3>Vin blanc, Gewürztraminer</h3>
+        </div>
+      </div>
+
+      <div class="container détail-vin">
+        <div class="row déscription-vin">
+          <div class="col-3 image-part">
+            <div class="mockup">
+              <img src="img/mockup-detail-pinot.png" alt="photo pinot noir" />
+            </div>
+            <div class="button-white">Commander</div>
+          </div>
+          <div class="col-6 offset-1">
+            <div class="container liste">
+              <div class="col-12">
+                <h2>Pinot Noir</h2>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Millésime</h2>
+                <h3>2022</h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Premier millésime</h2>
+                <h3>2020</h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Provenance</h2>
+                <h3>Vallée du Rhône, Valais, Suisse</h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Vinification</h2>
+                <h3>
+                  Le Gamay est produit sans intrants ni sulfites ajoutés. Les
+                  raisins, récoltés à la main, fermentent avec des levures
+                  indigènes, puis le vin est élevé 10 mois en fûts de chêne.
+                </h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Note de dégustation</h2>
+                <h3>
+                  Le Rossignol Rouge présente une robe rubis intense, des arômes
+                  de fruits rouges et d’épices. En bouche, il est rond, avec des
+                  tanins souples et une belle longueur.
+                </h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Accords Mets et Vins</h2>
+                <h3>
+                  Il accompagne bien les viandes rouges grillées, le coq au vin,
+                  ou les fromages affinés.
+                </h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Température de service</h2>
+                <h3>15-17°C</h3>
+              </div>
+              <div class="séparateur"></div>
+              <div class="col-12">
+                <h2>Potentiel de garde</h2>
+                <h3>5 à 8 ans</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 offset-9 logo-bio">
+          <img src="img/Bio suisse.svg" alt="logo bio suisse" />
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row proposition-vin-préférence">
+          <div class="col-5 text-part">
+            <div class="text">
+              Découvrez notre <strong>nouveau vin blanc</strong>, né du même
+              millésime que notre Pinot Noir. Frais et délicat, il exprime avec
+              vivacité toute la richesse du terroir valaisan, alliant
+              <strong>nature et tradition</strong>.
+            </div>
+            <div class="button">Voir le Gewürztraminer</div>
+          </div>
+          <div class="col-5 image">Vous êtes plutôt vin blanc</div>
+        </div>
       </div>
     </div>
     <extends src="footer-layout.html"></extends>
