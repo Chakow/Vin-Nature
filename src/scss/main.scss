@@ -529,10 +529,12 @@ footer {
   }
   .confidentialité-footer {
     display: flex;
+    justify-content: center;
     gap: 20px;
     margin-top: 125px;
     margin-bottom: 40px;
     width: 100%;
+
     h1 {
       color: var(--Gris-vert);
       text-align: center;
@@ -614,6 +616,7 @@ footer {
       font-size: 17px;
       font-weight: 600;
       width: 210px;
+      flex-shrink: 0;
     }
     h3 {
       color: rgba(217, 217, 217, 0.5);
