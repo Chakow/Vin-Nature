@@ -91,7 +91,6 @@ body {
     transition: 0.2s;
   }
   .menu-élément:hover {
-    font-size: 37px;
     font-weight: 600;
     margin-right: 10px;
   }
@@ -349,7 +348,7 @@ body {
 .a-propos {
   display: flex;
   align-items: center;
-  gap: 30px;
+
   margin-top: 80px;
   .image {
     img {
@@ -728,8 +727,8 @@ footer {
     }
   }
 }
-@media (min-width: 12000px) and (max-width: 1200px) {
-  h1 {
-    font-size: 30px;
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .menu-élément {
+    font-size: 26px;
   }
 }
