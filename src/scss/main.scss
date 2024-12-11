@@ -37,12 +37,25 @@ body {
   }
   background-color: var(--vert-foncé);
 }
+.menu-sticky-container-index {
+  position: absolute;
+  right: 72px;
+  width: 191px;
+  height: 3622px;
+}
+.menu-sticky-container-détail {
+  position: absolute;
+  right: 72px;
+  width: 191px;
+  height: 1725px;
+}
+
 .menu {
   z-index: 4;
   width: 191px;
   text-align: right;
   align-items: flex-end;
-  position: fixed;
+  position: sticky;
   right: 72px;
   top: 0px;
   .logo-rossignol {

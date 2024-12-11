@@ -1,23 +1,25 @@
-<div class="menu">
-  <img
-    src="img/logo_rossignol.svg"
-    alt="Logo Rossignol"
-    class="logo-rossignol"
-  />
-  <div class="menu-part-2">
-    <a class="menu-élément" href="">Philosophie</a>
-    <a class="menu-élément" href="">Rossignol</a>
-    <a class="menu-élément" href="">Nos vins</a>
-    <a class="menu-élément" href="">Actualités</a>
-    <div class="menu-part-3">
-      <div class="menu-part-4">
-        <a class="menu-sous-élément" href="">VENTE</a>
-        <a class="menu-sous-élément" href="">RENCONTRE</a>
-        <a class="menu-sous-élément" href="">CONTACT</a>
-      </div>
-      <div class="réseaux">
-        <img src="img/instagram-blanc.svg" alt="logo instagram" />
-        <img src="img/facebook-blanc.svg" alt="logo instagram" />
+<div class="menu-sticky-container">
+  <div class="menu">
+    <img
+      src="img/logo_rossignol.svg"
+      alt="Logo Rossignol"
+      class="logo-rossignol"
+    />
+    <div class="menu-part-2">
+      <a class="menu-élément" href="">Philosophie</a>
+      <a class="menu-élément" href="">Rossignol</a>
+      <a class="menu-élément" href="">Nos vins</a>
+      <a class="menu-élément" href="">Actualités</a>
+      <div class="menu-part-3">
+        <div class="menu-part-4">
+          <a class="menu-sous-élément" href="">VENTE</a>
+          <a class="menu-sous-élément" href="">RENCONTRE</a>
+          <a class="menu-sous-élément" href="">CONTACT</a>
+        </div>
+        <div class="réseaux">
+          <img src="img/instagram-blanc.svg" alt="logo instagram" />
+          <img src="img/facebook-blanc.svg" alt="logo instagram" />
+        </div>
       </div>
     </div>
   </div>
