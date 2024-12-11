@@ -640,3 +640,32 @@ footer {
     }
   }
 }
+.proposition-vin-préférence {
+  margin-top: 125px;
+  .image {
+    background: url(../img/plutôt-vin-blanc.png) lightgray 0px / 100% no-repeat;
+    display: flex;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    justify-content: center;
+    align-items: center;
+    color: var(--Blanc, var(--Blanc, #fff));
+    font-family: "Joly Headline";
+    font-size: 23px;
+    font-weight: 900;
+  }
+  .text-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    .text {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 17px;
+      font-weight: 400;
+      strong {
+        color: var(--blanc);
+      }
+    }
+  }
+}
