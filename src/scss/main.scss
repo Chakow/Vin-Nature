@@ -628,6 +628,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    strong {
+      color: var(--blanc);
+      font-weight: 400;
+    }
     .col-12 {
       display: flex;
     }
@@ -688,6 +692,7 @@ footer {
       font-weight: 400;
       strong {
         color: var(--blanc);
+        font-weight: 400;
       }
     }
   }
@@ -718,7 +723,13 @@ footer {
       font-weight: 400;
       strong {
         color: var(--blanc);
+        font-weight: 400;
       }
     }
+  }
+}
+@media (min-width: 12000px) and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
   }
 }
