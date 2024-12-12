@@ -12,6 +12,9 @@ img,
 video {
   display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @import "bootstrap/scss/bootstrap-grid";
 
@@ -60,6 +63,10 @@ body {
   top: 0px;
   .logo-rossignol {
     width: 81px;
+    transition: 0.3s;
+  }
+  .logo-rossignol:hover {
+    scale: 110%;
   }
   display: flex;
   flex-direction: column;
@@ -86,6 +93,10 @@ body {
       img {
         width: 25px;
         fill: var(--blanc);
+        transition: 0.3s;
+      }
+      img:hover {
+        scale: 120%;
       }
     }
 
@@ -132,7 +143,7 @@ body {
   transition: 0.4s ease-in-out;
 }
 .chevron-down:hover {
-  width: 27px;
+  scale: 110%;
 }
 .compte {
   display: flex;
@@ -154,6 +165,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+  .bag-shopping,
+  .user {
+    transition: 0.3s;
+  }
+  .bag-shopping:hover,
+  .user:hover {
+    scale: 120%;
   }
 }
 .slogan {
@@ -241,6 +260,7 @@ body {
     width: 100%;
   }
 }
+
 .présentation-vin-rouge,
 .présentation-vin-blanc {
   display: flex;
@@ -289,9 +309,16 @@ body {
 .philosophie {
   margin-top: 74px;
   display: flex;
+  .image-container {
+    overflow: hidden;
+  }
   img {
     width: 100%;
     height: 451px;
+    transition: 0.3s;
+  }
+  img:hover {
+    scale: 110%;
   }
   .philosophie-texte {
     display: flex;
@@ -328,9 +355,17 @@ body {
   align-items: flex-start;
   gap: 30px;
   margin-top: 80px;
+  .image-container {
+    overflow: hidden;
+  }
   img {
     width: 100%;
+    transition: 0.3s;
   }
+  img:hover {
+    scale: 110%;
+  }
+
   .textes {
     display: flex;
     flex-direction: column;
@@ -364,8 +399,15 @@ body {
 
   margin-top: 80px;
   .image {
+    .image-container {
+      overflow: hidden;
+    }
     img {
       width: 100%;
+      transition: 0.3s;
+    }
+    img:hover {
+      scale: 110%;
     }
   }
   .a-propos-texte {
@@ -478,7 +520,11 @@ footer {
       display: flex;
       img {
         width: 40px;
+        transition: 0.3s;
       }
+    }
+    img:hover {
+      scale: 110%;
     }
   }
 
@@ -501,6 +547,12 @@ footer {
       text-decoration-thickness: auto;
       text-underline-offset: auto;
       text-underline-position: from-font;
+      img {
+        transition: 0.3s;
+      }
+      img:hover {
+        scale: 110%;
+      }
     }
     .horaire {
       display: flex;
@@ -536,6 +588,12 @@ footer {
       .bio-suisse {
         width: 60.157px;
         height: 50.001px;
+      }
+      img {
+        transition: 0.3s;
+      }
+      img:hover {
+        scale: 110%;
       }
     }
   }
@@ -743,5 +801,25 @@ footer {
 @media (min-width: 1200px) and (max-width: 1400px) {
   .menu-élément {
     font-size: 26px;
+  }
+  .présentation-vin-rouge,
+  .présentation-vin-blanc {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    transition: 0.5s;
+    background: var(--vert-foncé);
+    transform: translateY(18px);
+  }
+  .élément:hover {
+    .présentation-vin-blanc,
+    .présentation-vin-rouge {
+      transform: translateY(-110px);
+      background: var(--Gris-vert);
+    }
   }
 }

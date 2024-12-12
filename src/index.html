@@ -10,25 +10,30 @@
   <body>
     <div class="menu-sticky-container-index">
       <div class="menu">
-        <img
-          src="img/logo_rossignol.svg"
-          alt="Logo Rossignol"
-          class="logo-rossignol"
-        />
+        <a href="index.html">
+          <img
+            src="img/logo_rossignol.svg"
+            alt="Logo Rossignol"
+            class="logo-rossignol"
+        /></a>
         <div class="menu-part-2">
-          <a class="menu-élément" href="">Philosophie</a>
-          <a class="menu-élément" href="">Rossignol</a>
-          <a class="menu-élément" href="">Nos vins</a>
-          <a class="menu-élément" href="">Actualités</a>
+          <a class="menu-élément" href="#philosophie">Philosophie</a>
+          <a class="menu-élément" href="#a-propos">Rossignol</a>
+          <a class="menu-élément" href="#avant-vue">Nos vins</a>
+          <a class="menu-élément" href="#avant-vue">Actualités</a>
           <div class="menu-part-3">
             <div class="menu-part-4">
-              <a class="menu-sous-élément" href="">VENTE</a>
-              <a class="menu-sous-élément" href="">RENCONTRE</a>
-              <a class="menu-sous-élément" href="">CONTACT</a>
+              <a class="menu-sous-élément" href="#avant-vue">VENTE</a>
+              <a class="menu-sous-élément" href="#footer">RENCONTRE</a>
+              <a class="menu-sous-élément" href="#footer">CONTACT</a>
             </div>
             <div class="réseaux">
-              <img src="img/instagram-blanc.svg" alt="logo instagram" />
-              <img src="img/facebook-blanc.svg" alt="logo instagram" />
+              <a href="https://www.instagram.com/"
+                ><img src="img/instagram-blanc.svg" alt="logo instagram"
+              /></a>
+              <a href="https://www.facebook.com/"
+                ><img src="img/facebook-blanc.svg" alt="logo instagram"
+              /></a>
             </div>
           </div>
         </div>
@@ -56,19 +61,20 @@
           <div class="col-7 slogan">
             <strong>Rossignol</strong><br />La nature en bouteille,<br />Le
             respect au coeur du terroir.
-            <div class="button">Nos vins</div>
+            <a href="#avant-vue"><div class="button">Nos vins</div></a>
           </div>
         </div>
       </div>
     </div>
-    <img
-      src="img/chevron-down.svg"
-      alt="flèche vers le bas"
-      class="chevron-down"
-    />
+    <a href="#avant-vue">
+      <img
+        src="img/chevron-down.svg"
+        alt="flèche vers le bas"
+        class="chevron-down"
+    /></a>
     <div class="container">
       <div class="row">
-        <div class="col-10 Avant-vue-titre">
+        <div class="col-10 Avant-vue-titre" id="avant-vue">
           Découvrez l'Essence Unique<br />de Rossignol !
         </div>
       </div>
@@ -76,31 +82,38 @@
       <div class="row avant-vue">
         <div class="col-5 élément">
           <img src="img/pinot-preview.png" alt="pinot noir" />
-          <div class="présentation-vin-rouge">
-            <h3>Pinot Noir, Gamay</h3>
-            <p>
-              Un vin délicat et naturel, aux arômes de fruits rouges et
-              d'épices. Une pure expression du terroir valaisan, sans artifices.
-            </p>
-            <div class="button-white">Voir le produit</div>
-          </div>
+          <a href="détail-pinot.html">
+            <div class="présentation-vin-rouge">
+              <h3>Pinot Noir, Gamay</h3>
+              <p>
+                Un vin délicat et naturel, aux arômes de fruits rouges et
+                d'épices. Une pure expression du terroir valaisan, sans
+                artifices.
+              </p>
+              <div class="button-white">Voir le produit</div>
+            </div></a
+          >
         </div>
         <div class="col-5 élément">
           <img src="img/blanc-preview.png" alt="vin blanc" />
-          <div class="présentation-vin-blanc">
-            <h3>Vin blanc, Gewürztraminer</h3>
-            <p>
-              Frais et vibrant, ce vin blanc naturel révèle des notes fruitées
-              et florales. Une authenticité pure, issue du terroir valaisan.
-            </p>
-            <div class="button-white">Voir le produit</div>
-          </div>
+          <a href="détail-gewürztraminer.html">
+            <div class="présentation-vin-blanc">
+              <h3>Vin blanc, Gewürztraminer</h3>
+              <p>
+                Frais et vibrant, ce vin blanc naturel révèle des notes fruitées
+                et florales. Une authenticité pure, issue du terroir valaisan.
+              </p>
+              <div class="button-white">Voir le produit</div>
+            </div></a
+          >
         </div>
       </div>
       <div class="col-10 ligne"></div>
-      <div class="row philosophie">
+      <div class="row philosophie" id="philosophie">
         <div class="col-5">
-          <img src="img/philosophie.png" alt="marcheurs dans les vignes" />
+          <div class="image-container">
+            <img src="img/philosophie.png" alt="marcheurs dans les vignes" />
+          </div>
         </div>
         <div class="col-4 offset-1 philosophie-texte">
           <h1>La philosophie<br />de Rossignol</h1>
@@ -120,10 +133,14 @@
         </div>
       </div>
 
-      <div class="visite-interesse">
+      <div class="visite-interesse" id="visite-interesse">
         <div class="row">
           <div class="col-10">
-            <img src="img/visite-interesse.png" alt="" />
+            <div class="image-container">
+              <a href="#footer"
+                ><img src="img/visite-interesse.png" alt=""
+              /></a>
+            </div>
           </div>
         </div>
 
@@ -144,7 +161,7 @@
         </div>
       </div>
 
-      <div class="row a-propos">
+      <div class="row a-propos" id="a-propos">
         <div class="col-4 a-propos-texte">
           <h1>A propos de nous</h1>
           <p>
@@ -158,13 +175,19 @@
             subtil entre tradition, innovation et
             <strong>amour de la terre</strong>.
           </p>
-          <div class="button">Contact</div>
+          <a href="#footer"><div class="button">Contact</div></a>
         </div>
         <div class="col-5 offset-1 image">
-          <img src="img/rossignol-plumage.png" alt="queue de rossignol" />
+          <div class="image-container">
+            <a href="#footer"
+              ><img src="img/rossignol-plumage.png" alt="queue de rossignol"
+            /></a>
+          </div>
         </div>
       </div>
     </div>
+    <div id="footer"></div>
     <extends src="footer-layout.html"></extends>
+    <script src="js/main.js"></script>
   </body>
 </html>
