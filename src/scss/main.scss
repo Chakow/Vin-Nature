@@ -31,7 +31,7 @@ html {
 }
 body {
   color: var(--blanc);
-  font-family: "Basic Sans";
+  font-family: "basic-sans";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -205,7 +205,7 @@ body {
   border: 1px solid var(--Blanc, #fff);
   color: var(--Blanc, var(--Blanc, #fff));
   text-align: center;
-  font-family: "Basic Sans";
+  font-family: "basic-sans";
   font-size: 17px;
   transition: 0.5s;
 }
@@ -219,7 +219,7 @@ body {
   border-radius: 25px;
   color: var(--Noir);
   text-align: center;
-  font-family: "Basic Sans";
+  font-family: "basic-sans";
   font-size: 17px;
   transition: 0.5s;
 }
@@ -235,7 +235,7 @@ body {
   border: 1px solid var(--Blanc, #fff);
   color: var(--Blanc, var(--Blanc, #fff));
   text-align: center;
-  font-family: "Basic Sans";
+  font-family: "basic-sans";
   font-size: 17px;
   background: none;
 }
@@ -249,7 +249,7 @@ body {
   border-radius: 25px;
   color: var(--Noir);
   text-align: center;
-  font-family: "Basic Sans";
+  font-family: "basic-sans";
   font-size: 17px;
 }
 
@@ -275,7 +275,7 @@ body {
   gap: 20px;
   transition: 0.5s;
   background: var(--vert-foncé);
-  transform: translateY(-80px);
+  transform: translateY(-100% + 100% - 38);
 
   h3 {
     align-self: stretch;
@@ -292,7 +292,7 @@ body {
 .élément:hover {
   .présentation-vin-blanc,
   .présentation-vin-rouge {
-    transform: translateY(-197px);
+    transform: translateY(-100%);
     background: var(--Gris-vert);
   }
 }
@@ -340,7 +340,7 @@ body {
     }
     p {
       color: rgba(255, 255, 255, 0.5);
-      font-family: "Basic Sans";
+      font-family: "basic-sans";
       font-size: 17px;
       color: var(--blanc--50);
       font-size: 17px;
@@ -541,7 +541,7 @@ footer {
       align-items: flex-start;
       gap: 20px;
       gap: 20px;
-      font-family: "Basic Sans";
+      font-family: "basic-sans";
       font-size: 17px;
       font-weight: 400;
       text-decoration-line: underline;
@@ -804,25 +804,5 @@ footer {
 @media (min-width: 1200px) and (max-width: 1400px) {
   .menu-élément {
     font-size: 26px;
-  }
-  .présentation-vin-rouge,
-  .présentation-vin-blanc {
-    display: flex;
-    width: 100%;
-    padding: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 20px;
-    transition: 0.5s;
-    background: var(--vert-foncé);
-    transform: translateY(18px);
-  }
-  .élément:hover {
-    .présentation-vin-blanc,
-    .présentation-vin-rouge {
-      transform: translateY(-110px);
-      background: var(--Gris-vert);
-    }
   }
 }
