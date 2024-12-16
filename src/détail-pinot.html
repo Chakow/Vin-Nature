@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/hql4zun.css" />
   </head>
   <body>
-    <extends src="nav-provisoire.html"></extends>
-
     <div class="menu-sticky-container-détail">
       <div class="menu">
         <a href="index.html">
@@ -63,7 +61,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 navigation">
+        <div class="col-6 navigation" data-aos="fade-up">
           <h3>Accueil</h3>
           <img src="img/chevron-right.svg" alt="flèche droite" />
           <h3>Nos vins</h3>
@@ -76,14 +74,14 @@
 
       <div class="container détail-vin">
         <div class="row déscription-vin">
-          <div class="col-3 image-part">
+          <div class="col-3 image-part" data-aos="fade-up">
             <div class="mockup">
               <img src="img/mockup-detail-pinot.png" alt="photo pinot noir" />
             </div>
             <div class="button-white">Commander</div>
           </div>
           <div class="col-6 offset-1">
-            <div class="container liste">
+            <div class="container liste" data-aos="fade-up">
               <div class="col-12">
                 <h2>Pinot Noir</h2>
               </div>
@@ -145,13 +143,16 @@
             </div>
           </div>
         </div>
-        <div class="col-1 offset-9 logo-bio">
+        <div class="col-1 offset-9 logo-bio" data-aos="fade-up">
           <img src="img/Bio suisse.svg" alt="logo bio suisse" />
         </div>
       </div>
 
       <div class="container">
-        <div class="row proposition-vin-préférence-page-rouge">
+        <div
+          class="row proposition-vin-préférence-page-rouge"
+          data-aos="fade-up"
+        >
           <div class="col-5 text-part">
             <div class="text">
               Découvrez notre <strong>nouveau vin blanc</strong>, né du même
@@ -169,5 +170,6 @@
     </div>
     <div id="footer"></div>
     <extends src="footer-layout.html"></extends>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>

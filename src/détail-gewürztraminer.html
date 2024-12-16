@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <extends src="nav-provisoire.html"></extends>
     <div class="menu-sticky-container-détail">
       <div class="menu">
         <a href="index.html">
@@ -60,7 +59,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 navigation">
+        <div class="col-6 navigation" data-aos="fade-up">
           <h3>Accueil</h3>
           <img src="img/chevron-right.svg" alt="flèche droite" />
           <h3>Nos vins</h3>
@@ -71,7 +70,7 @@
         </div>
       </div>
 
-      <div class="container détail-vin">
+      <div class="container détail-vin" data-aos="fade-up">
         <div class="row déscription-vin">
           <div class="col-3 image-part">
             <div class="mockup">
@@ -154,7 +153,10 @@
       </div>
 
       <div class="container">
-        <div class="row proposition-vin-préférence-page-blanc">
+        <div
+          class="row proposition-vin-préférence-page-blanc"
+          data-aos="fade-up"
+        >
           <div class="col-5 text-part">
             <div class="text">
               Découvrez notre <strong>nouveau vin rouge</strong>, né du même
@@ -172,5 +174,6 @@
     </div>
     <div id="footer"></div>
     <extends src="footer-layout.html"></extends>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/hql4zun.css" />
   </head>
   <body>
-    <div class="menu-sticky-container-index">
+    <div class="menu-sticky-container-index" data-aos="fade-up">
       <div class="menu">
         <a href="index.html">
           <img
@@ -28,10 +28,10 @@
               <a class="menu-sous-élément" href="#footer">CONTACT</a>
             </div>
             <div class="réseaux">
-              <a href="https://www.instagram.com/"
+              <a href="https://www.instagram.com/" target="_blank"
                 ><img src="img/instagram-blanc.svg" alt="logo instagram"
               /></a>
-              <a href="https://www.facebook.com/"
+              <a href="https://www.facebook.com/" target="_blank"
                 ><img src="img/facebook-blanc.svg" alt="logo instagram"
               /></a>
             </div>
@@ -40,7 +40,6 @@
       </div>
     </div>
 
-    <extends src="nav-provisoire.html"></extends>
     <div class="Accueil-part">
       <div class="container">
         <div class="row">
@@ -58,7 +57,7 @@
         </div>
 
         <div class="row">
-          <div class="col-7 slogan">
+          <div class="col-7 slogan" data-aos="fade-up">
             <strong>Rossignol</strong><br />La nature en bouteille,<br />Le
             respect au coeur du terroir.
             <a href="#avant-vue"><div class="button">Nos vins</div></a>
@@ -74,12 +73,12 @@
     /></a>
     <div class="container">
       <div class="row">
-        <div class="col-10 Avant-vue-titre" id="avant-vue">
+        <div class="col-10 Avant-vue-titre" id="avant-vue" data-aos="fade-up">
           Découvrez l'Essence Unique<br />de Rossignol !
         </div>
       </div>
 
-      <div class="row avant-vue">
+      <div class="row avant-vue" data-aos="fade-up">
         <div class="col-5 élément">
           <img src="img/pinot-preview.png" alt="pinot noir" />
           <a href="détail-pinot.html">
@@ -109,10 +108,12 @@
         </div>
       </div>
       <div class="col-10 ligne"></div>
-      <div class="row philosophie" id="philosophie">
+      <div class="row philosophie" id="philosophie" data-aos="fade-up">
         <div class="col-5">
           <div class="image-container">
-            <img src="img/philosophie.png" alt="marcheurs dans les vignes" />
+            <a href=""
+              ><img src="img/philosophie.png" alt="marcheurs dans les vignes"
+            /></a>
           </div>
         </div>
         <div class="col-4 offset-1 philosophie-texte">
@@ -129,11 +130,11 @@
             une invitation à savourer l’équilibre fragile entre
             <strong>la terre, le climat et le savoir-faire.</strong>
           </p>
-          <div class="button">Le domaine</div>
+          <a href=""><div class="button">Le domaine</div></a>
         </div>
       </div>
 
-      <div class="visite-interesse" id="visite-interesse">
+      <div class="visite-interesse" id="visite-interesse" data-aos="fade-up">
         <div class="row">
           <div class="col-10">
             <div class="image-container">
@@ -161,7 +162,7 @@
         </div>
       </div>
 
-      <div class="row a-propos" id="a-propos">
+      <div class="row a-propos" id="a-propos" data-aos="fade-up">
         <div class="col-4 a-propos-texte">
           <h1>A propos de nous</h1>
           <p>
@@ -188,6 +189,6 @@
     </div>
     <div id="footer"></div>
     <extends src="footer-layout.html"></extends>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>
